@@ -5,4 +5,4 @@ Installation steps (On the root folder)
 - npm install
 - npm start
 
-This node app start a server on localhost:8888
+This node app starts a server on localhost:8888
