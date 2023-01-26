@@ -30,9 +30,7 @@ app.get('/api/getUserInfo', (req, res) => {
 
   //falcon-playmaker-api.cfd.isus.emc.com
   //falcon-config-tool-api.cfd.isus.emc.com
-  //pine-searchservice.cfd.isus.emc.com/getToken
-  //sb-search-engine-api.cfd.isus.emc.com
-  //sb-search-engine-api.cfd.isus.emc.com
+  //sb-search-engine-api-dev.cfd.isus.emc.com
   instance.post('https://falcon-config-tool-api.cfd.isus.emc.com/getToken', {
     networkId:"Santiago_Cioli"
   })
