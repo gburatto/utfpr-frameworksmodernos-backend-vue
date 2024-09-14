@@ -15,6 +15,12 @@ router.get('/api/getUserInfo', (req, res) => {
 const usuarios = require('./controller/usuario/router-usuario');
 app.use('/api/usuario',usuarios);
 
+const clientes = require('./controller/cliente/router-cliente');
+app.use('/api/cliente',clientes);
+
+const produtos = require('./controller/produto/router-produto');
+app.use('/api/produto',produtos);
+
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
